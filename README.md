@@ -32,5 +32,8 @@ To the Will Shatner of the modern age; Matt Damon: the new legendary ham with ag
 
 
 ### Want to SEE it work?
-### Click here to watch the recorded version: [Clicky Game - Matt Damon](https://youtu.be/QMuNO5OlTqQ)
+### Click here to watch the recorded version: [Clicky Video](https://youtu.be/QMuNO5OlTqQ)
+
+### Want to try it on the web? 
+### Click here: [Clicky Game](https://apleek3.github.io/clicky-game/)
 
