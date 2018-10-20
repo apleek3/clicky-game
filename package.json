@@ -2,7 +2,7 @@
   "name": "my-clicky-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://apleek3.github.io/clicky-app",
+  "homepage": "https://apleek3.github.io/clicky-game/",
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
