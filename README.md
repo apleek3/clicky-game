@@ -33,3 +33,6 @@ To the Will Shatner of the modern age; Matt Damon: the new legendary ham with ag
 
 ### Want to SEE it work?
 ### Click here to watch the recorded version: [Clicky Video](https://youtu.be/QMuNO5OlTqQ)
+
+### Want to do it LIVE?
+### Click here to play: [Clicky Game](https://apleek3.github.io/clicky-game/)
