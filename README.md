@@ -31,6 +31,6 @@ To the Will Shatner of the modern age; Matt Damon: the new legendary ham with ag
     $ npm start
 
 
-### Want to see it work?
-### Click here: [Clicky Game - Matt Damon](https://youtu.be/QMuNO5OlTqQ)
+### Want to SEE it work?
+### Click here to watch the recorded version: [Clicky Game - Matt Damon](https://youtu.be/QMuNO5OlTqQ)
 
