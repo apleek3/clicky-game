@@ -1,12 +1,11 @@
-import React, { Component } from 'react'; // adds react functionality - more importantly the ability to use components
-import './App.css'; //imports out custom CSS
-import MattDamons from './MattDamons.json' // Adds all the Matt Damons for our app. Including his Loki cameo.
-import Wrapper from './components/Wrapper' // Adds our scoreboard component
-import Navpills from './components/Navpills' // Adds our score tally bootstrap Nav Pills
-import Title from './components/Title' // Place to bring in our Snazzy title
-import MattDamonCard from './components/MattDamonCard' // Our main component - Matt Damon cards to manipulate
+import React, { Component } from 'react';
+import './App.css';
+import MattDamons from './MattDamons.json'
+import Wrapper from './components/Wrapper'
+import Navpills from './components/Navpills'
+import Title from './components/Title'
+import MattDamonCard from './components/MattDamonCard'
 
-// App is a compilation of all our our components
 class App extends Component {
     state = {
         message: "Click an image to begin!",
@@ -26,11 +25,11 @@ class App extends Component {
         }
     }
 
-    selectMattDamon = role => {
-        const findMattDamon = this.state.unselectedMattDamons.find(item => item.role === role);
+    selectMattDamon = name => {
+        const findMattDamon = this.state.unselectedMattDamons.find(item => item.name === name);
 
         if(findMattDamon === undefined) {
-            // failure to select a new mattdamon
+            // NOT a new Matt Damon
             this.setState({ 
                 message: "You guessed incorrectly!",
                 topScore: (this.state.currentScore > this.state.topScore) ? this.state.currentScore : this.state.topScore,
@@ -40,8 +39,8 @@ class App extends Component {
             });
         }
         else {
-            // success to select a new mattdamon
-            const newMattDamons = this.state.unselectedMattDamons.filter(item => item.role !== role);
+            // New Matt Damons
+            const newMattDamons = this.state.unselectedMattDamons.filter(item => item.name !== name);
             
             this.setState({ 
                 message: "You guessed correctly!",
@@ -64,10 +63,12 @@ class App extends Component {
                 />
                 <Title />
                 {
-                    this.state.MattDamons.map(mattdamon => (
+                    this.state.MattDamons.map(MattDamon => (
                         <MattDamonCard
-                            role={mattdamon.role}
-                            image={mattdamon.image}
+                            id={MattDamon.id}
+                            name={MattDamon.name}
+                            image={MattDamon.image}
+                            key={MattDamon.id}
                             selectMattDamon={this.selectMattDamon} 
                             currentScore={this.state.currentScore}
                         />

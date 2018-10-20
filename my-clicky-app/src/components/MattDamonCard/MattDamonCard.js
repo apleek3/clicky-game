@@ -7,14 +7,15 @@ const MattDamonCard = props => (
   <div className="card">
     <div className="img-container">
       <img
-        onClick={() => props.selectMattDamon(props.role)}
+        onClick={() => props.selectMattDamon(props.name)}
         className={
           props.currentScore === 0
             ? "style_prevu_kit style_prevu_kit_ex"
             : "style_prevu_kit"
         }
-        alt={props.role}
+        alt={props.name}
         src={props.image}
+        key={props.id}
       />
     </div>
   </div>
