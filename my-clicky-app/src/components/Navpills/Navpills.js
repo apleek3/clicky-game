@@ -3,19 +3,19 @@ import "./Navpills.css";
 
 // Bootstarp Nav-Pills to create the game progress on a wrapper:
 const Navpills = props => (
-    <div>
+    <div className="container-fluid bg-dark">
         <ul className="nav nav-pills nav-justified">
-            <li><a href="/">Matt Damon Clicky Game</a></li>
+            <li><a href="/">CLICK THE "MATT" </a></li>
             <li
-                className={props.message.indexOf('incorrectly') !== -1 ? 
+                className={props.message.indexOf('INCORRECT') !== -1 ? 
                     "desc-incorrect" : 
-                    props.message.indexOf('correctly') !== -1 ?
+                    props.message.indexOf('CORRECT') !== -1 ?
                         "desc-correct" :
                         "desc-normal"}
             >
                 {props.message}
             </li>
-            <li>Score: <span style={{color: "yellow"}}>{props.currentScore}</span> | Best Score: {props.topScore}</li>
+            <li> SCORE: <span style={{color: "yellow"}}>{props.currentScore}</span> | BEST: <span style={{color: "green"}}>{props.topScore}</span></li>
         </ul>
     </div>
 );

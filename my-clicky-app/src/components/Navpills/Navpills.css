@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: #000;
+    background: darkgray;
     min-height: 65px;
     width: 100%;
     text-align: center;
@@ -15,7 +15,7 @@
     white-space: nowrap;
 }
 
-.nav-pills a {
+.nav-pills img {
     color: #fff;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .desc-correct {
-    color: greenyellow;
+    color: darkcyan;
 }
 
 .desc-incorrect {
