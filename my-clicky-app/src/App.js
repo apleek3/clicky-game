@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
-import './App.css';
-import MattDamons from './MattDamons.json'
-import Wrapper from './components/Wrapper'
-import Navpills from './components/Navpills'
-import Title from './components/Title'
-import MattDamonCard from './components/MattDamonCard'
+import React, { Component } from 'react'; // adds react functionality - more importantly the ability to use components
+import './App.css'; //imports out custom CSS
+import MattDamons from './MattDamons.json' // Adds all the Matt Damons for our app. Including his Loki cameo.
+import Wrapper from './components/Wrapper' // Adds our scoreboard component
+import Navpills from './components/Navpills' // Adds our score tally bootstrap Nav Pills
+import Title from './components/Title' // Place to bring in our Snazzy title
+import MattDamonCard from './components/MattDamonCard' // Our main component - Matt Damon cards to manipulate
 
+// App is a compilation of all our our components
 class App extends Component {
     state = {
         message: "Click an image to begin!",

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navpills.css";
 
+// Bootstarp Nav-Pills to create the game progress on a wrapper:
 const Navpills = props => (
     <div>
         <ul className="nav nav-pills nav-justified">
@@ -14,7 +15,7 @@ const Navpills = props => (
             >
                 {props.message}
             </li>
-            <li>Score: <span style={{color: "yellow"}}>{props.currentScore}</span> | Top Score: {props.topScore}</li>
+            <li>Score: <span style={{color: "yellow"}}>{props.currentScore}</span> | Best Score: {props.topScore}</li>
         </ul>
     </div>
 );

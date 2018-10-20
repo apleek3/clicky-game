@@ -1,6 +1,8 @@
 import React from "react";
 import "./MattDamonCard.css";
 
+
+//creates the card of Matt Damon. Wraps everything in a nice Div. Nice idea from classmate to change css styles using current score property
 const MattDamonCard = props => (
   <div className="card">
     <div className="img-container">
