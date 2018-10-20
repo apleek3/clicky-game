@@ -2,7 +2,7 @@
 
 
 ## Overview
-To the Will Shatner of the modern age; the new legendary ham with age-less cameos this clicky game is dedicated. Clone the app and run locally to play! Instructions are as follows:
+To the Will Shatner of the modern age; Matt Damon: the new legendary ham with age-less cameos - this clicky game is dedicated. Clone the app and run locally to play! Instructions are as follows:
 
 1. Click on a tile to up your score.
 1. Don't click a movie tile twice.
